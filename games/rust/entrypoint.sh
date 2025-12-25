@@ -43,7 +43,6 @@ case "${FRAMEWORK}" in
     echo "Done updating uMod!"
     ;;
 esac
-fi
 
 # Fix for Rust not starting
 export LD_LIBRARY_PATH=$(pwd)/RustDedicated_Data/Plugins/x86_64:$(pwd)

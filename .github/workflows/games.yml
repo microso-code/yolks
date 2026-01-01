@@ -7,7 +7,7 @@ on:
     branches:
       - master
     paths:
-      - games/**
+      - games/rust
 jobs:
   push:
     name: "games:${{ matrix.game }}"
